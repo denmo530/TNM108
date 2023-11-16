@@ -1,0 +1,12 @@
+Part 1: 
+    (i) what is the TF-IDF measure
+        - The TF-IDF is a measure for how important a word is in a document. This is done by multiplying how many times a word appears in a document with the inverse document frequency of the word across a set of documents. Words which appear in a sole document are measured more valuable for that document than words which appear in multiple other documents. 
+   
+    (ii) how to use TF-IDF for:
+        - Document Similiarity
+            -  Calculate the cosine similiarity between two document vectors. The direction of the angle is what's important. A small angle means less difference and more similarity. Orthogonal angles means the documents are pretty much not related and angles around 180 degrees means opposite document similarity. 
+        Classifying text
+            - Multinomiyal naive bayes can be used to classify text. A predictive model is created by calculating the TF-IDF matrix and then passing it to the multinomiyal naive bayes classifier to train a model. 
+
+Part 2: 
+    (i) 
